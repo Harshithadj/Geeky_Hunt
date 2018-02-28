@@ -16,6 +16,12 @@ public class MainActivity extends Activity  {
    EditText ed1,ed2;
 
    TextView tx1;
+
+
+
+
+
+   int c=0;
    int counter = 3;
 
    @Override
@@ -39,7 +45,7 @@ public class MainActivity extends Activity  {
                   Toast.makeText(getApplicationContext(),
                      "Redirecting...",Toast.LENGTH_SHORT).show();
                }else{
-                  Toast.makeText(getApplicationContext(), "Wrong 
+                  Toast.makeText(getApplicationContext(), "Wrong
                      Credentials",Toast.LENGTH_SHORT).show();
 
                   tx1.setVisibility(View.VISIBLE);
